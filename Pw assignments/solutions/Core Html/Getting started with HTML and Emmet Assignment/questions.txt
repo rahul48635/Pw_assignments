@@ -1,0 +1,28 @@
+Q3.Write a short note on tags,elements,and attributes along with relevent examples.
+Ans.Tags:Tags are used to Define the structure of a web page,It is the skeliton of the webpage 
+elements:An element is everything from stating tag to ending tag
+attributes:It is used to further specify the tag i.e style attributes
+
+Q4.List out any 3 tags we learned in this module and give a brief explaination about the tags.
+Ans.H1 tag: It is used to specify and heading in the web-page 
+title tag:  It come under head tag and it is used to define the title of the page 
+hr tag: It is used to mark a horizontal line on the page
+
+Q5.What is emmet?List some of the advantages emmet offers?
+Ans.It is a framework used to write code in shortcut so that the coder don't need to  waste their time and effort on the same code.
+advantages:It reduces time to write the code
+           It gives flexibity to write the code very fast in simple abbrivation
+           It enhaces the productivity of the coder
+
+Q7.Explain in brief about the nesting operators in emmet.
+Ans.Nesting is just writing a tag or more than one tag in another tag 
+for example  we can create a unordered list under an ordered list  or we can use bold ta under anchor tag
+
+Q9.What are self closing tags? Write a brief note on meta tags.4
+Ans.Self closing tags are those tags which doesn't require closing for i.e hr,br and etc.
+Meta tags are the data about data which means it give the info about and particular data for example let's say an image 
+meta tags define how will it look on other devices and what the image is about!
+
+Q10.What are global attributes?List any 5 global attributes.
+Ans.Global attributes are those attributes which are common to all elements of html
+for i.e id,class,title,lang and style
