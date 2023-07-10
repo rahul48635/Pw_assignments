@@ -1,0 +1,33 @@
+Q1.List out some Features of html5
+Ans.It allows us to access the media formats like audio,video and images etc.
+It has semantic text which by which we as well as computer can understand very easily example:table,p,bold etc.
+It has some new tags which allow the developer to code very easily.
+It has new boilerplate code which is easily to write.
+
+Q2.What are HTML Entities?List out 5 Commonly used HTML Entities.
+Ans.Html Entities are those characters which are not on keyboard but have signicance of use ie.
+@,<,>,®,¢ etc.
+
+Q3.What is web accessibility?List some of the assistive devices which play a major role in providing accessibility.
+Ans.accessibility is the term which shows the access to web site to the ones who are disable by any mean who can't access th webpage
+same as normal users do so this option enable them to access the webpage with help of some tools like:magnifier,braille display,text to speech etc.
+
+Q4.list any 3ways which help us in improving the accessibility of html.
+Ans. 1.We can improve accessibility of a web page by using aria attribute 
+2.By using alternative text
+3.By  using clear language
+
+Q5.Write a short note on tab index.
+Ans.Tab index attribute is used for the declare the importance of an element or how measure the level of importance given to an element.
+
+Q6.List any 5 semantic tags in HTMl along with their descriptions.
+Ans.Mark: It is used to mark or highlight the content
+Form:It is used to create a form or take any input from users
+Table: It is used to create a table
+Article: It is used to write an Article
+Header: It is used to create a Header of a page
+
+Q7.What are the benifits of using semantic tags in our webpage?
+Ans.It help the developer to understand the syntax very easily because it explain itself for example input,table etc.
+
+
