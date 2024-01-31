@@ -1,0 +1,30 @@
+.div_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.button {
+    position: relative;
+    padding: 15px 30px;
+    font-size: 20px;
+    color:  #090b0c;
+    background-color: #ec6464;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #e63939;
+}
+.discount {
+    position: absolute ;
+    padding: 10px;
+    top:-25px;
+    right:-35px;
+    font-size: 15px;
+    color: rgb(246, 240, 240);
+    background-color: black;
+    border-radius: 5px;
+}

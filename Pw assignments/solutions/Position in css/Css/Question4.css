@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(221, 66, 66);
+    height: 50px;
+    position:fixed;
+    width: 80%;
+    border-radius: 30px;
+}
+#head4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    padding-top: 30px;
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+#head5{
+    color: orange;
+    margin: 0px 10%;
+}
+#content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+#content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: aliceblue;
+}

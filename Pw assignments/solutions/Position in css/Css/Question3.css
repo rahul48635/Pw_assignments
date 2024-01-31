@@ -1,0 +1,33 @@
+#main_div{
+    float: left;
+    border: black solid 2px;
+}
+#div_img{
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#main_content{
+   
+   display: flex;
+   margin: 0px;
+   justify-content: space-between;
+}
+#cred{
+    color: rgb(0, 132, 255);
+    
+}
+#cred2{
+    
+}
+.apart{
+    margin-top: 20px;
+}
+.apart2{
+    margin-top: 20px;
+    text-align: left;
+}

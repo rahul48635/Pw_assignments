@@ -1,0 +1,34 @@
+*{
+    background-color: black;
+    color: aliceblue;
+    
+}
+h1{
+    align-content: left;
+    font-size: 55px;
+}
+button{
+    color: rgb(231, 231, 231);
+    background-color: rgb(89, 43, 226) ;
+    border-radius:10px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button:hover{
+    color:rgb(76, 48, 159);
+}
+#main_div{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    margin-top: 250px;
+    float: left;
+
+}
+div img{     
+  /* width: 20px;*/
+  height:450px;
+}

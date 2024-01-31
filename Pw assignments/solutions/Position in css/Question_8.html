@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/Question_8.css">
+  </head>
+  <body>
+    <div class="overlay" onclick="remove()"></div>
+    <h1>Full Stack web development</h1>
+    <br />
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore nostrum
+      earum dolorum ullam soluta expedita, quo quae magni natus, debitis
+      architecto consequuntur aliquam neque numquam facilis dolores! Praesentium
+      dicta blanditiis architecto commodi ducimus fugiat sit? Consequatur cumque
+      excepturi nobis, impedit sed ratione quo, totam officiis laboriosam labore
+      reprehenderit, maiores illo!
+    </p>
+    <br />
+
+    <h1>Course Details</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque
+      officiis vitae dignissimos aut reiciendis magnam, non, hic qui quis
+      corporis dolorem omnis alias! Nesciunt quaerat recusandae id praesentium
+      quisquam ut, explicabo maiores illum sunt. Aliquid, repellendus provident
+      voluptas dolorum id aspernatur incidunt quaerat atque, vero doloremque
+      eveniet laboriosam eum quam eaque reprehenderit corrupti, culpa itaque!
+      Modi atque temporibus officia totam earum ipsa? Ea commodi, neque nisi
+      numquam labore cum optio adipisci aliquam architecto omnis. Commodi
+      laboriosam, veniam cupiditate illo incidunt obcaecati. Tempore numquam
+      distinctio maxime placeat, eaque labore saepe natus rerum ut sunt porro,
+      at consectetur earum laboriosam voluptas itaque minus quis est dolor
+      dolores aspernatur! Exercitationem dolorum adipisci, in voluptas omnis
+      reiciendis. Eaque temporibus placeat odio nemo autem quae, blanditiis
+      recusandae quas repudiandae, corrupti alias! Aspernatur inventore quis
+      alias quidem dolores possimus deleniti consequatur, aperiam temporibus
+      tempore commodi debitis iste. Eum possimus repellat similique doloribus
+      obcaecati, labore delectus mollitia assumenda enim at alias laborum
+      laboriosam fuga accusamus est vel error, veritatis maiores sed amet
+      corporis commodi? Repellat culpa esse quo officia ducimus temporibus,
+      cupiditate consequuntur. Amet doloremque at harum. Qui incidunt molestiae
+      fugiat ipsam, ad ut quam aspernatur, neque amet voluptatum accusantium
+      nesciunt quisquam. Itaque, sit et est perspiciatis quis, fuga magnam totam
+      maxime tempore dolorem molestias aut placeat nemo suscipit. Provident,
+      consectetur asperiores doloribus amet illum soluta possimus iusto porro!
+      Aliquid ex ipsum voluptate, tempore animi qui sed voluptatum provident
+      nemo officiis eaque atque libero. Ducimus iusto eligendi veniam vitae!
+      Fugit fugiat velit, nemo sint pariatur voluptatibus placeat laudantium.
+      Eligendi, fuga animi pariatur recusandae numquam quas eum molestias quam
+      accusamus rem quasi culpa, modi sapiente voluptatum earum. Atque, corporis
+      nesciunt voluptatum vitae nobis commodi. Nesciunt, nemo eius itaque
+      laudantium distinctio sed voluptate magnam totam voluptatem explicabo
+      vitae non quasi atque tenetur debitis ex eum facere velit rerum!
+    </p><br>
+    <div class="container">
+      <div class="head"><h1>Want A Free Consultation?</h1></div><br>
+      <div class="name"><input type="text" placeholder="Full Name"></div><br>
+      <div class="details">
+      <div class="email"><input type="text" placeholder="Email"></div>
+      <div class="contact"><input type="text" placeholder="Contact Number"></div>
+      </div><br>
+      <div class="msg"><input type="text" placeholder="Message"></div><br>
+      <div class="btn" onclick="remove()"><button>Send Message</button></div></div>
+    <script>
+      function add(){document.querySelector(".overlay").classList.add("showoverlay");
+      document.querySelector(".container").classList.add("modal");}
+      let ad=window.addEventListener("onload",add());
+      function remove(){
+        document.querySelector(".overlay").classList.remove("showoverlay");
+        document.querySelector(".container").classList.remove("modal");
+      }
+      let click=document.querySelector(".btn");
+      // let re=click.addEventListener("onclick",remove());
+    </script>
+  </body>
+</html>

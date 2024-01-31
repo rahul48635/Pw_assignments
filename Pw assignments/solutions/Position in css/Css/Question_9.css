@@ -1,0 +1,28 @@
+.hover{
+    background-color: rgb(250, 78, 78);
+    color: black;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* opacity: 1; */
+}
+.container{
+    overflow: scroll;
+    height: 200px;
+    width: 220px;
+    visibility: hidden;
+    top: -100%;
+}
+.options{
+    padding: 10px;
+    cursor: pointer;
+}
+.options:hover{
+    background-color: #8f8f8f84;
+}
+.sp{
+    transform:translate(0%,0%);
+    visibility: visible;
+
+}

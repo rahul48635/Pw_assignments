@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(43, 42, 42, 0.801);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    z-index: -2;
+}
+button{
+    background-color:rgb(168, 122, 247);
+}
+.container{
+    position: absolute;
+    top:-50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: all 2s ease-in-out;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    opacity: 0;
+    z-index: -1;
+}
+.para{
+    overflow: scroll;
+    height: 300px;
+    width: 600px;
+}
+button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* js */
+.aftercontent{
+    filter: blur(10px);
+}
+.overlay1{
+    z-index: 1;
+    opacity: 1;
+}
+.modal{
+    top: 50%;
+    z-index: 2;
+    opacity: 1;
+}
